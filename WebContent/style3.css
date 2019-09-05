@@ -1,0 +1,301 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color:#f7f0f0;
+}
+
+#footer {
+	background-color: #d6577a;
+	position:absolute;
+	top:750px;
+	bottom:0px;
+	left: 0px;
+	height:60px;
+	width:100%;
+}
+
+#a1{
+	position:absolute;
+	top:20px;
+	left:600px;
+	right:400px;
+	font-size:120%;
+}
+#a11{
+	position:absolute;
+	top:50px;
+	left:400px;
+	right:800px;	
+}
+
+#a13{
+	position:absolute;
+	top:50px;
+	left:870px;
+	right:400px;		
+}
+
+#a111{
+	position:absolute;
+	top:350px;
+	left:400px;
+	right:800px;			
+}
+
+#a113{
+	position:absolute;
+	top:350px;
+	left:870px;
+	right:400px;	
+}
+
+#hr{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+}
+#code{
+	position:absolute;
+	left:225px;
+	top:138px;
+}
+#master{
+	position:absolute;
+	left:150px;
+	top:0px;		
+}
+#ameri{
+	position:absolute;
+	left:300px;
+	top:0px;		
+}
+#box1{
+	position:absolute;
+	width:500px;
+	height:500px;
+	opacity:0.4;
+	top:30px;
+	left:550px;
+	filter:alpha(opacity = 60);
+	float:left;
+	border-radius:12px;
+	background-color:#333333;
+}
+#yourmsg{
+	position:absolute;
+	top:200px;
+	left:500px;
+}
+
+header{
+	width: 100%; 
+	height: 100px; 
+	background-color:white;
+}
+	
+header img{
+	height: 95px; 
+	width: 90px;
+	margin-top: 5px; 
+	margin-left: 70px; 
+}
+
+button.signup {
+	float:right;
+	margin-right: 5px;
+	margin-top: 20px;
+	background-color: #d6577a;
+	border: none;
+	color: white;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px; 
+}
+		
+button.login {
+	float:right;
+	margin-right: 70px;
+	margin-top: 20px;
+	background-color: #d6577a;
+	border: none;
+	color: white;
+	padding: 12px 18px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px;	
+}
+
+button.signout {
+	float:right;
+	margin-right: 70px;
+	margin-top: 20px;
+	background-color: #d6577a;
+	border: none;
+	color: white;
+	padding: 12px 18px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px;	
+}
+
+button.acc {
+	float:right;
+	margin-right: 5px;
+	margin-top: 20px;
+	background-color: #d6577a;
+	border: none;
+	color: white;
+	padding: 12px 18px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px;	
+}
+button.help {
+	float:right;
+	margin-right: 70px;
+	margin-top: 20px;
+	background-color: #d6577a;
+	border: none;
+	color: white;
+	padding: 12px 18px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px;	
+}
+
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #b8b8b8;
+	box-shadow: 0 1px 1px 1px #999;
+	/*#b8b8b8*/;
+}
+
+.topnav ul{
+	margin-left:40px; 
+}
+
+.topnav ul, .topnav li{
+	list-style:none;
+	display: inline-block; 
+	float: left;  
+	line-height: 50px; 
+}	
+
+.topnav ul, .topnav li, .topnav a{
+	display: block;
+	text-decoration: none; 
+	font-size: 16px; 
+	font-family: Arial; 
+	color: #525252;
+	padding: 0 10px; 
+}	
+
+.topnaav ul, .topnav li, .topnav a:hover{
+	color:#d6577a;
+}
+
+.topnav ul, .topnav li, .topnav a.on{
+	color: #d6577a;
+}
+	
+#container {
+	min-height:400px; 
+	position:relative;
+	background-color:#b8b8b8;
+}
+#con2{
+	position:absolute;
+	left:0px;
+	width:100px;
+}
+
+#main {
+	overflow: auto; 
+	padding-bottom: 130px; 
+}
+/*
+input[type=text], select {
+width: 400px;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+input[type=submit] {
+width: 200px;
+background-color: #d6577a;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+*/
+
+	.leftnav{
+		margin-bottom: 27%;
+		height: 100%;
+	}
+	
+	.leftnav ul {
+		list-style-type: none;
+		margin-left: 0px;
+		margin-top: 30px;
+		padding-left: 0px;
+		width: 210px;
+		background-color: #b8b8b8;
+	}
+
+	.leftnav li a {
+		display: block;
+		color: #525252;
+		padding: 8px 15px;
+		text-decoration: none;
+	}
+
+	.leftnav li a.active {
+		background-color: #d6577a;
+		color: white;
+	}
+
+	.leftnav li a:hover:not(.active) {
+		background-color: #ffc7d6;
+		color: #525252;
+	}
+	
+	.vl1 {
+    position:absolute;
+	left:200px;
+	margin-top:0px;
+	border-left: 1px solid #000;
+    height: 100%;
+    margin-left: 10px;
+    top: 0;
+	
+	}
+	
